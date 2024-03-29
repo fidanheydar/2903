@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0;
+}
+h3{
+    font-family: "Marcellus", serif;
+    font-size: 35px;
+}
+p,li{
+    color: #656565;
+    font-weight: lighter;
+}
+li::marker{
+    color: #be9c79;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social i{
+color: #abb8c3;
+transition: 0.3s;
+}
+.social i:hover{
+    color: #be9c79;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.row input{
+    width: 296px;
+    height: 56px;
+}
+#input1{
+    margin-left: 12px;
+}
+#sub{
+    width: 622px;
+    height: 56px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+textarea{
+    width: 623px;
+    height: 150px;
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.text-box{
+  width: 630px;
+}
+button{
+    width:182px;
+    height: 60px;
+    border: none;
+    background-color: #be9c79;
+    color: white;
+    font-family: "Marcellus", serif;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: black;
+}
+section{
+    margin-top: 40px;
+}
+
+
